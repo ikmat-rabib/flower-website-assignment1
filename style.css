@@ -1,0 +1,52 @@
+/* universal */
+* {
+    margin: 0 0;
+}
+
+/* common setup */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-content{
+    margin-left: 240px;
+}
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+}
+
+.banner-p {
+    width: 634px;
+    margin: 30px 0px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner .banner-image {
+    width: 635px;
+    height: 800px;
+    margin-right: 240px;
+}
