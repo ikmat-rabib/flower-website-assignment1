@@ -30,6 +30,28 @@ body {
     color: #E55473;
 }
 
+/* nav section */
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+    background-color: darkslateblue;
+    position: sticky;
+    top: 50%;
+
+}
+.nav-container ul{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.nav-container li{
+    list-style: none;
+    margin-right: 50px;
+    cursor: pointer;;
+}
 
 /* banner section */
 .banner {
@@ -69,6 +91,7 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .banner .banner-image {
