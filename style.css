@@ -81,9 +81,7 @@ body {
     padding: 180px 240px;
 }
 
-.Featured-content {
-    /* margin: auto; */
-}
+
 
 .featured-images {
     width: 464px;
@@ -135,11 +133,7 @@ body {
     justify-content: space-around;
     margin-top: 30px;
 }
-
-.insta-image {
-    /* width: 342px;
-    height: 396px; */
-}
+ 
 
 /* footer */
 .ftr {
