@@ -93,13 +93,15 @@ body {
 
 .featured-image-container {
     display: flex;
-    gap: 30px;margin: auto;
+    gap: 30px;
+    margin-left: -55px;
 
 }
 
 .box {
     width: 465px;
     height: 545px;
+    
 }
 
 .featured-image1 {
@@ -123,6 +125,7 @@ body {
 .featured-image-title {
     margin-top: 30px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .image1 {
