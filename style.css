@@ -73,41 +73,62 @@ body {
 
 .banner .banner-image {
     width: 635px;
-    margin-right: 120px;
+    margin: 20px 120px 0px 0px;
     height: 800px;
-    padding: 0px 0px;;
+    padding: 0px 0px;
+    ;
 }
 
 /* Our Featured Flowers */
 
 .featured-section {
-    padding: 180px 240px;
+    
+    margin: 180px;
 }
 
+.Featured-content{
+    margin-bottom: 30px;
 
+}
 
-.featured-images {
-    width: 464px;
-    height: 538px;
+.featured-image-container {
     display: flex;
+    gap: 30px;margin: auto;
+
+}
+
+.box {
+    width: 465px;
+    height: 545px;
 }
 
 .featured-image1 {
+    padding: 50px 70px 0px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    align-items: center;
 }
 
 .featured-image2 {
+    padding: 55px 65px 54px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .featured-image3 {
+    padding: 9px 70px 0px ;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
 
+.featured-image-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.image1 {
+    align-items: center;
+
+}
 
 /* sale section */
 .sale {
@@ -137,7 +158,6 @@ body {
     margin-top: 30px;
 }
 
-.insta-image {}
 
 
 /* subscriber-section */
