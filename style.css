@@ -35,13 +35,14 @@ body {
 .banner {
     height: 100vh;
     display: flex;
+    padding: 0px 0px;
     align-items: center;
     justify-content: space-between;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner-content {
-    margin-left: 240px;
+    margin-left: 120px;
 }
 
 .banner-title {
@@ -71,8 +72,10 @@ body {
 }
 
 .banner .banner-image {
-    position: relative;
-    margin-right: 240px;
+    width: 635px;
+    margin-right: 120px;
+    height: 800px;
+    padding: 0px 0px;;
 }
 
 /* Our Featured Flowers */
