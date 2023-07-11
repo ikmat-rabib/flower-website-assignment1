@@ -133,7 +133,18 @@ body {
     justify-content: space-around;
     margin-top: 30px;
 }
+.insta-image{
+}
  
+
+/* subscriber-section */
+.sub-sec{
+    width: 38%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 120px 285px;
+    background-image: url("Flower\ Asset/Rectangle 9.png");
+}
 
 /* footer */
 .ftr {
