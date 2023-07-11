@@ -9,6 +9,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: auto;
+}
 
 .clr {
     color: #E55473;
@@ -61,24 +77,52 @@ body {
 
 /* Our Featured Flowers */
 
-.featured-section {}
+.featured-section {
+    padding: 180px 240px;
+}
 
-.Featured-content {}
+.Featured-content {
+    /* margin: auto; */
+}
 
 .featured-images {
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 25px;
+    margin-top: 50px;
 }
 
-.featured-image {
+.featured-image1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    align-items: center;
+}
+
+.featured-image2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
+.featured-image3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+/* sale section */
+.sale {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    gap: 215px;
+    padding: 100px 420px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
 /* footer */
 .ftr {
-    width: 100vw;
     text-align: center;
     background-color: black;
     padding: 128px 0;
