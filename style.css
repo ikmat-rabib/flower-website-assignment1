@@ -86,10 +86,9 @@ body {
 }
 
 .featured-images {
+    width: 464px;
+    height: 538px;
     display: flex;
-    align-items: center;
-    gap: 25px;
-    margin-top: 50px;
 }
 
 .featured-image1 {
